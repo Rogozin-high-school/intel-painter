@@ -140,5 +140,13 @@ namespace WindowsFormsApplication1
             print(x,y, pointSize, b, colors["red"]);//change "red" to selected color
             pictureBox1.Image = b;*/
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ImageConverter ic = new ImageConverter();
+            byte[] arr = (byte[])ic.ConvertTo(b, typeof(byte[]));
+            string base64String = Convert.ToBase64String(arr);
+            richTextBox1.Text = base64String;
+        }
     }
 }
