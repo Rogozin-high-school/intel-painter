@@ -20,7 +20,7 @@ namespace WindowsFormsApplication1
         byte[] arr = new byte[1366*768*3];
         int pointSize = 0;
         Dictionary<string, Color> colors = new Dictionary<string, Color>();
-        bool running = false;
+        public string style="";
         private void setColors()
         {
             colors["red"] = Color.Red;
@@ -36,6 +36,14 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if(this.style=="")
+            {
+                imageSelection isS = new imageSelection();
+                this.Hide();
+                isS.ShowDialog();
+                this.Close();
+            }
+            MessageBox.Show(style);
             Thread t = new Thread(() =>
             {
                 while (true)
