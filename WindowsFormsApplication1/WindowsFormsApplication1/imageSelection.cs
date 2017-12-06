@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     public partial class imageSelection : Form
     {
         int pWidth;
-        const int pageAmount =15;
+        const int pageAmount =20;
         const int ROWLEN = 5;
         const string JSONPATH = "styles1.txt";
         List<PictureBox> pictures = new List<PictureBox>();
@@ -54,7 +54,7 @@ namespace WindowsFormsApplication1
                 for (int i = 0; i < pageAmount; i++)
                 {
                     string filePath = d[index]["id"];
-                    Point p = new Point(3 + (pictures.Count % ROWLEN) * 70, 3 + (pictures.Count / ROWLEN) * 120);
+                    Point p = new Point(3 + (pictures.Count % ROWLEN) * 70, 3 + (pictures.Count / ROWLEN) * 107);
                     PictureBox pb = new PictureBox();
                     pb.Name = filePath;
                     pb.Image = Image.FromFile("styles/" + filePath + ".jpg");
@@ -66,12 +66,12 @@ namespace WindowsFormsApplication1
                     };
                     pictures.Add(pb);
                     Controls.Add(pb);
-                    Label l = new Label();
+                    /*Label l = new Label();
                     l.Text = d[index]["title"];
                     l.Name = l.Text;
                     l.Location = new Point(p.X, p.Y + 110);
                     l.Font = new Font(FontFamily.GenericMonospace, 9);
-                    Controls.Add(l);
+                    Controls.Add(l);*/
                     index++;
                 }
             }
