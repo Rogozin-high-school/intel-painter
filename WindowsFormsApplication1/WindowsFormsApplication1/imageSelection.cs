@@ -13,8 +13,8 @@ namespace WindowsFormsApplication1
     public partial class imageSelection : Form
     {
         int pWidth;
-        const int pageAmount = 12;
-        const int ROWLEN = 4;
+        const int pageAmount =9;
+        const int ROWLEN = 3;
         const string JSONPATH = "styles1.txt";
         List<PictureBox> pictures = new List<PictureBox>();
         List<Dictionary<string, string>> d = new List<Dictionary<string, string>>();
@@ -26,10 +26,14 @@ namespace WindowsFormsApplication1
 
         private void imageSelection_Load(object sender, EventArgs e)
         {
+            Load1();
+        }
+        public void Load1()
+        {
             pWidth = this.Width / ROWLEN;
             string cont = File.ReadAllText(JSONPATH);
             string[] temp = cont.Split("\r\n".ToCharArray());
-            foreach(string item in temp)
+            foreach (string item in temp)
             {
                 //MessageBox.Show(item);
                 Dictionary<string, string> td = new Dictionary<string, string>();
@@ -42,18 +46,18 @@ namespace WindowsFormsApplication1
                 }
                 catch
                 {
-                   // MessageBox.Show(item);
+                    // MessageBox.Show(item);
                 }
             }
             try
             {
-                for(int i=0;i<pageAmount;i++)
+                for (int i = 0; i < pageAmount; i++)
                 {
                     string filePath = d[index]["id"];
-                    Point p = new Point(3+(pictures.Count%ROWLEN)*70,3+(pictures.Count/ROWLEN)*120);
+                    Point p = new Point(3 + (pictures.Count % ROWLEN) * 70, 3 + (pictures.Count / ROWLEN) * 120);
                     PictureBox pb = new PictureBox();
                     pb.Name = filePath;
-                    pb.Image = Image.FromFile("styles/"+filePath+".jpg");
+                    pb.Image = Image.FromFile("styles/" + filePath + ".jpg");
                     pb.Location = p;
                     pb.Size = new Size(62, 100);
                     pb.Click += (object s1, EventArgs e1) =>
@@ -85,6 +89,11 @@ namespace WindowsFormsApplication1
             f.ShowDialog();
             this.Close();
         }
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*Controls.
+            Load();*/
+        }
     }
 }
