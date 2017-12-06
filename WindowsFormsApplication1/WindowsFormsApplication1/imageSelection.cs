@@ -13,8 +13,8 @@ namespace WindowsFormsApplication1
     public partial class imageSelection : Form
     {
         int pWidth;
-        const int pageAmount =9;
-        const int ROWLEN = 3;
+        const int pageAmount =15;
+        const int ROWLEN = 5;
         const string JSONPATH = "styles1.txt";
         List<PictureBox> pictures = new List<PictureBox>();
         List<Dictionary<string, string>> d = new List<Dictionary<string, string>>();

@@ -19,3 +19,4 @@ K:\Kdocuments\wacom\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\
 K:\Kdocuments\wacom\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 K:\Kdocuments\wacom\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 K:\Kdocuments\wacom\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.imageSelection.resources
+K:\Kdocuments\todel\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.imageSelection.resources
