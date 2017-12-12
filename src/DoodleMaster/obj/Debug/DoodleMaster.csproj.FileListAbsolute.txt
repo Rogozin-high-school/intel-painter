@@ -1,0 +1,13 @@
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\DoodleMaster.exe.config
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\DoodleMaster.exe
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\DoodleMaster.pdb
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\DeepArtEffectsClient.dll
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\RestSharp.dll
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\bin\Debug\DeepArtEffectsClient.xml
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.csprojResolveAssemblyReference.cache
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.Form1.resources
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.Properties.Resources.resources
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.csproj.GenerateResource.Cache
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.exe
+C:\Users\yotam\Documents\xAI\neuronlib\DoodleMaster\DoodleMaster\obj\Debug\DoodleMaster.pdb
