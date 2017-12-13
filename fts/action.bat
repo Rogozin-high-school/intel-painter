@@ -1,1 +1,0 @@
-python evaluate.py --checkpoint "C:\Users\yotam\Documents\fast-style-transfer\models\la_muse.ckpt" --in-path "C:\Users\yotam\Documents\fast-style-transfer\in_dir" --out-path "C:\Users\yotam\Documents\fast-style-transfer\out_dir"
