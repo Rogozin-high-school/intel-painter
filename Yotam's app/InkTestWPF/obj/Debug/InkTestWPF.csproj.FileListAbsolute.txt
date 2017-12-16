@@ -1,0 +1,15 @@
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\bin\Debug\InkTestWPF.exe.config
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\bin\Debug\InkTestWPF.exe
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\bin\Debug\InkTestWPF.pdb
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.csprojResolveAssemblyReference.cache
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\MainWindow.g.cs
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\App.g.cs
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF_MarkupCompile.cache
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF_MarkupCompile.lref
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\MainWindow.baml
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.g.resources
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.Properties.Resources.resources
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.csproj.GenerateResource.Cache
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.csproj.CoreCompileInputs.cache
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.exe
+C:\Users\yotam\Documents\Visual Studio 2017\Projects\InkTestWPF\InkTestWPF\obj\Debug\InkTestWPF.pdb

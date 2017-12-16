@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkTest", "InkTest\InkTest.csproj", "{56B72C24-824B-49B6-8697-8453FA2722EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkTestWPF", "InkTestWPF\InkTestWPF.csproj", "{19E2F373-7F68-4FA7-B226-2394F6DFFC56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56B72C24-824B-49B6-8697-8453FA2722EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56B72C24-824B-49B6-8697-8453FA2722EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56B72C24-824B-49B6-8697-8453FA2722EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56B72C24-824B-49B6-8697-8453FA2722EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E2F373-7F68-4FA7-B226-2394F6DFFC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E2F373-7F68-4FA7-B226-2394F6DFFC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E2F373-7F68-4FA7-B226-2394F6DFFC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E2F373-7F68-4FA7-B226-2394F6DFFC56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {91E0C791-7566-4F46-B3F0-A4934592DFCD}
+		SolutionGuid = {C656F09F-201E-41ED-A552-D943FE6F0704}
 	EndGlobalSection
 EndGlobal
