@@ -29,5 +29,26 @@ namespace InkTestWPF
         {
             
         }
+
+        private void penButton_Click(object sender, RoutedEventArgs e)
+        {
+            inkCanvas.EditingMode = InkCanvasEditingMode.Ink;
+            inkCanvas.EditingModeInverted = InkCanvasEditingMode.EraseByPoint;
+        }
+
+        private void inkCanvas_Gesture(object sender, InkCanvasGestureEventArgs e)
+        {
+            var x = e.GetGestureRecognitionResults();
+            if (x.Count > 0)
+            {
+                //MessageBox.Show(x[0].ApplicationGesture.ToString());
+            }
+            e.Handled = false;
+        }
+
+        private void eraseButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
