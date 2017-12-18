@@ -36,16 +36,12 @@ namespace WpfApp1
 
         private void Click(object sender, MouseButtonEventArgs e)
         {
-            gifImage.Visibility = Visibility.Visible;
-            Thread t = new Thread(() =>
-            {
-                Thread.Sleep(2000);
-                gifImage.Visibility = Visibility.Hidden;
-            });
             Image i = (Image)sender;
             string src = i.Source.ToString();
+            string[] temp = src.Split(@"/".ToCharArray());
+            src = temp.Last();
             src = src.Split(".".ToCharArray())[0];
-            //Move(src);
+            Move(src);
         }
     }
 }

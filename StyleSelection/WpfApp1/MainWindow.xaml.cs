@@ -24,10 +24,19 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            Window1 w = new Window1();
-            this.Hide();
-            w.ShowDialog();
-            this.Close();
+            
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if(style.Equals(""))
+            {
+                Window1 w = new Window1();
+                this.Hide();
+                w.ShowDialog();
+                this.Close();
+            }
+            MessageBox.Show(this.style);
         }
     }
 }
